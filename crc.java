@@ -1,8 +1,7 @@
 public class CRCModbus {
     public byte[] preHandler(String param){
         /**
-         * @Description: 将字符串转化为16进制数组
-         * @author: Huang Hua
+         * @Description: 将字符串转化为16进制数
          * @param:  [param]
          * @return: byte[]
          * @Date: 2018/6/12
@@ -24,7 +23,6 @@ public class CRCModbus {
     public String getCRC(byte[] bytes){
         /**
          * @Description: 生成CRC循环冗余校验码
-         * @author: Huang Hua
          * @param:  [bytes]
          * @return: java.lang.String
          * @Date: 2018/6/12
